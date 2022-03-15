@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "img-explore"
+name = "HistoQuant"
 version = "0.1.0"
 description = "Cellpose for muscle biopsy images"
 authors = ["Corentin Meyer"]
@@ -12,7 +12,6 @@ pillow = "^9"
 ipykernel = "^6.9.1"
 openpyxl = "^3.0.9"
 UpSetPlot = "^0.6.0"
-pyvis = "^0.1.9"
 scikit-image = "^0.19.2"
 nbconvert = "^6.4.2"
 black = "^22.1.0"
