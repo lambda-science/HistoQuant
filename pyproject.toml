@@ -1,23 +1,23 @@
 [tool.poetry]
 name = "HistoQuant"
 version = "0.1.0"
-description = "Cellpose for muscle biopsy images"
-authors = ["Corentin Meyer"]
+description = "Analyse muscle biopsy images using deep-learning (Cellpose), machine-learning and image analysis"
+authors = ["Corentin Meyer <corentin.meyer@etu.unsitra.fr>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
 python = ">=3.9"
 cellpose = "^1"
 pillow = "^9"
-ipykernel = "^6.9.1"
-openpyxl = "^3.0.9"
-UpSetPlot = "^0.6.0"
-scikit-image = "^0.19.2"
-nbconvert = "^6.4.2"
-black = "^22.1.0"
-pylint = "^2.12.2"
+ipykernel = "^6"
+openpyxl = "^3"
+UpSetPlot = "^0"
+scikit-image = "^0"
+nbconvert = "^6"
 
 [tool.poetry.dev-dependencies]
+black = "^22"
+pylint = "^2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
