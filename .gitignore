@@ -153,4 +153,5 @@ cython_debug/
 
 # Custom Corentin
 *.html
-data
+HistoQuant
+EHRoes
