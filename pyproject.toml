@@ -18,6 +18,11 @@ stardist = "^0.8.2"
 tensorflow = "^2.8.0"
 ipywidgets = "^7.7.0"
 scikit-learn = "^1.0.2"
+Augmentor = "^0.2.10"
+astropy = "^5.0.4"
+data = "^0.4"
+fpdf = "^1.7.2"
+h5py = "^3.6.0"
 
 [tool.poetry.dev-dependencies]
 black = "^22"
