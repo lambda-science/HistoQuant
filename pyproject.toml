@@ -23,6 +23,7 @@ astropy = "^5.0.4"
 data = "^0.4"
 fpdf = "^1.7.2"
 h5py = "^3.6.0"
+keras = "^2.9.0"
 
 [tool.poetry.dev-dependencies]
 black = "^22"
